@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main(){
+   int LA[5]={1,2,3,4,5};
+   int N=5;
+   int k=1,LOC=0,Key=4;
+   for (k=1;k<=5;k++){
+         if(Key==LA[k]){
+            LOC=k;
+            printf("LOC %d:Found%d",LOC ,LA[k]);
+            break;
+         }
+         k++;
+   }
+   return 0;
+}
